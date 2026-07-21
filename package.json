@@ -1,0 +1,13 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Jeffrey Li's personal website — static HTML/CSS/JS, no build step.",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve . -l 5173",
+    "format": "npx --yes prettier --write \"*.html\" \"*.css\" \"*.js\"",
+    "format:check": "npx --yes prettier --check \"*.html\" \"*.css\" \"*.js\"",
+    "lint": "npx --yes eslint@9 script.js"
+  }
+}
