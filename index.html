@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffrey Li</title>
+  <meta name="description" content="Jeffrey Li — personal website: about, projects, and contact." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav" aria-label="Primary">
+      <a class="nav__brand" href="#top">Jeffrey Li</a>
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle navigation menu">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="container">
+        <h1 class="hero__name">Jeffrey Li</h1>
+        <p class="hero__tagline">
+          I build things with software — replace this tagline with a one-liner about
+          what you do and who you do it for.
+        </p>
+        <div class="hero__actions">
+          <a class="button button--primary" href="#projects">See my work</a>
+          <a class="button button--ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          Swap in a couple of paragraphs here: your background, what you're
+          working on right now, and what you're curious about. Keep it
+          conversational — this is the part people read to decide whether to
+          reach out.
+        </p>
+      </div>
+    </section>
+
+    <section id="projects" class="section section--alt">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="card-grid">
+          <article class="card">
+            <h3>Project One</h3>
+            <p>
+              One or two sentences on what this project is, what problem it
+              solves, and what you used to build it.
+            </p>
+            <a class="card__link" href="#">View project &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Project Two</h3>
+            <p>
+              Same idea — short description, tech used, and a link out to the
+              repo, demo, or write-up.
+            </p>
+            <a class="card__link" href="#">View project &rarr;</a>
+          </article>
+          <article class="card">
+            <h3>Project Three</h3>
+            <p>
+              Replace these placeholder cards with real projects as they're
+              ready to show off.
+            </p>
+            <a class="card__link" href="#">View project &rarr;</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          The best way to reach me is by email. I'm also around on the usual
+          platforms below.
+        </p>
+        <ul class="link-list">
+          <li><a href="mailto:hello@example.com">hello@example.com</a></li>
+          <li><a href="https://github.com/">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> Jeffrey Li. Built with plain HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
